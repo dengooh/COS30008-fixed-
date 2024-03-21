@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6EB23C92BAB03E40013E36D /* Main (1).cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6EB23C82BAB03E40013E36D /* Main (1).cpp */; };
+		F6EB23CB2BAB04440013E36D /* ComponentBaseAuxiliaries (1).cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6EB23CA2BAB04440013E36D /* ComponentBaseAuxiliaries (1).cpp */; };
+		F6EB23D12BAB07770013E36D /* PassiveResistor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6EB23D02BAB07770013E36D /* PassiveResistor.cpp */; };
+		F6EB23D32BAB10F80013E36D /* ComponentBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6EB23D22BAB10F80013E36D /* ComponentBase.cpp */; };
+		F6EB23D52BABB90F0013E36D /* Capacitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6EB23D42BABB90F0013E36D /* Capacitor.cpp */; };
+		F6EB23D72BABEAB90013E36D /* Inductor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6EB23D62BABEAB90013E36D /* Inductor.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F6EB23BC2BAB039C0013E36D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F6EB23BE2BAB039C0013E36D /* Tutorial 4 Inheritance and Method Overriding */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Tutorial 4 Inheritance and Method Overriding"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6EB23C82BAB03E40013E36D /* Main (1).cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Main (1).cpp"; path = "../../../../../Downloads/Main (1).cpp"; sourceTree = "<group>"; };
+		F6EB23CA2BAB04440013E36D /* ComponentBaseAuxiliaries (1).cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "ComponentBaseAuxiliaries (1).cpp"; path = "../../../../../Downloads/ComponentBaseAuxiliaries (1).cpp"; sourceTree = "<group>"; };
+		F6EB23CC2BAB04510013E36D /* ComponentBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComponentBase.h; path = ../artifactrs/ComponentBase.h; sourceTree = "<group>"; };
+		F6EB23CD2BAB04AE0013E36D /* PassiveResistor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PassiveResistor.h; path = ../artifactrs/PassiveResistor.h; sourceTree = "<group>"; };
+		F6EB23CE2BAB04E30013E36D /* Inductor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Inductor.h; path = ../artifactrs/Inductor.h; sourceTree = "<group>"; };
+		F6EB23CF2BAB04EB0013E36D /* Capacitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Capacitor.h; path = ../artifactrs/Capacitor.h; sourceTree = "<group>"; };
+		F6EB23D02BAB07770013E36D /* PassiveResistor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PassiveResistor.cpp; sourceTree = "<group>"; };
+		F6EB23D22BAB10F80013E36D /* ComponentBase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ComponentBase.cpp; sourceTree = "<group>"; };
+		F6EB23D42BABB90F0013E36D /* Capacitor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Capacitor.cpp; sourceTree = "<group>"; };
+		F6EB23D62BABEAB90013E36D /* Inductor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Inductor.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6EB23BB2BAB039C0013E36D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6EB23B52BAB039C0013E36D = {
+			isa = PBXGroup;
+			children = (
+				F6EB23CC2BAB04510013E36D /* ComponentBase.h */,
+				F6EB23CF2BAB04EB0013E36D /* Capacitor.h */,
+				F6EB23CE2BAB04E30013E36D /* Inductor.h */,
+				F6EB23CD2BAB04AE0013E36D /* PassiveResistor.h */,
+				F6EB23C02BAB039C0013E36D /* Tutorial 4 Inheritance and Method Overriding */,
+				F6EB23BF2BAB039C0013E36D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6EB23BF2BAB039C0013E36D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6EB23BE2BAB039C0013E36D /* Tutorial 4 Inheritance and Method Overriding */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6EB23C02BAB039C0013E36D /* Tutorial 4 Inheritance and Method Overriding */ = {
+			isa = PBXGroup;
+			children = (
+				F6EB23C82BAB03E40013E36D /* Main (1).cpp */,
+				F6EB23CA2BAB04440013E36D /* ComponentBaseAuxiliaries (1).cpp */,
+				F6EB23D02BAB07770013E36D /* PassiveResistor.cpp */,
+				F6EB23D22BAB10F80013E36D /* ComponentBase.cpp */,
+				F6EB23D42BABB90F0013E36D /* Capacitor.cpp */,
+				F6EB23D62BABEAB90013E36D /* Inductor.cpp */,
+			);
+			path = "Tutorial 4 Inheritance and Method Overriding";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6EB23BD2BAB039C0013E36D /* Tutorial 4 Inheritance and Method Overriding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6EB23C52BAB039D0013E36D /* Build configuration list for PBXNativeTarget "Tutorial 4 Inheritance and Method Overriding" */;
+			buildPhases = (
+				F6EB23BA2BAB039C0013E36D /* Sources */,
+				F6EB23BB2BAB039C0013E36D /* Frameworks */,
+				F6EB23BC2BAB039C0013E36D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tutorial 4 Inheritance and Method Overriding";
+			productName = "Tutorial 4 Inheritance and Method Overriding";
+			productReference = F6EB23BE2BAB039C0013E36D /* Tutorial 4 Inheritance and Method Overriding */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6EB23B62BAB039C0013E36D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F6EB23BD2BAB039C0013E36D = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = F6EB23B92BAB039C0013E36D /* Build configuration list for PBXProject "Tutorial 4 Inheritance and Method Overriding" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6EB23B52BAB039C0013E36D;
+			productRefGroup = F6EB23BF2BAB039C0013E36D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6EB23BD2BAB039C0013E36D /* Tutorial 4 Inheritance and Method Overriding */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6EB23BA2BAB039C0013E36D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6EB23D52BABB90F0013E36D /* Capacitor.cpp in Sources */,
+				F6EB23D32BAB10F80013E36D /* ComponentBase.cpp in Sources */,
+				F6EB23CB2BAB04440013E36D /* ComponentBaseAuxiliaries (1).cpp in Sources */,
+				F6EB23C92BAB03E40013E36D /* Main (1).cpp in Sources */,
+				F6EB23D12BAB07770013E36D /* PassiveResistor.cpp in Sources */,
+				F6EB23D72BABEAB90013E36D /* Inductor.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F6EB23C32BAB039C0013E36D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F6EB23C42BAB039C0013E36D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F6EB23C62BAB039D0013E36D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6EB23C72BAB039D0013E36D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6EB23B92BAB039C0013E36D /* Build configuration list for PBXProject "Tutorial 4 Inheritance and Method Overriding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6EB23C32BAB039C0013E36D /* Debug */,
+				F6EB23C42BAB039C0013E36D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6EB23C52BAB039D0013E36D /* Build configuration list for PBXNativeTarget "Tutorial 4 Inheritance and Method Overriding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6EB23C62BAB039D0013E36D /* Debug */,
+				F6EB23C72BAB039D0013E36D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6EB23B62BAB039C0013E36D /* Project object */;
+}
